@@ -1,0 +1,22 @@
+# ---- Ignore everything by default ----
+*
+
+# ---- But still walk into subdirectories ----
+!*/
+
+# ---- Allow only source files ----
+!*.c
+!*.cpp
+!*.py
+
+# ---- Optional: keep these too (delete if you don't want them) ----
+!.gitignore
+!*.h
+!*.hpp
+!README.md
+
+# ---- CPH / tooling folders (must come LAST to override !*/ ) ----
+.cph/
+.cph-ng/
+*.prob
+.vscode/
